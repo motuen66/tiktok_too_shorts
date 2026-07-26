@@ -67,3 +67,9 @@
 2026-07-26 15:19:46,895 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\d52ccf1d-078a-4ef5-84ac-556222a96482.mp4 (5985324 bytes)
 2026-07-26 15:22:09,123 - __main__ - INFO - YouTube authentication valid.
 2026-07-26 15:24:59,524 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 15:25:04,174 - src.downloader.tiktok_downloader - INFO - Fetching video info from TikWM (attempt 1/3)
+2026-07-26 15:25:05,333 - src.downloader.tiktok_downloader - INFO - Downloading video from https://v16m-default.tiktokcdn-us.com/fb9e932edd7cfeb030795afdf4f37f67/6a66194a/video/tos/useast8/tos-useast8-ve-0068c001-tx2/oM1Q2QeINAJFpbfU9EFaGAAwF1IwLfRtGYVfAK/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&&bt=339&ft=BIjtQVY1wyqRft9EOr_hFJ4_A0pimYE9QjKJ17DYAG0P3-I&mime_type=video_mp4&rc=ZDhmNDRkNmk7PGU1aTlmNUBpanV4cXA5cm15PDMzaTczNEAtLTE2LWIwNl4xYWNiNmM1YSNjLV80MmRjajFhLS1kMTJzcw%3D%3D&vvpl=1&l=20260726082505E2C20DE6887431BB4A3D&btag=e00090000
+2026-07-26 15:25:07,783 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\d773efed-84ee-4079-acbd-62ada94ac504.mp4 (5985324 bytes)
+2026-07-26 15:25:07,954 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 15:25:14,295 - src.uploader.youtube_uploader - INFO - Uploaded video ID: SmEa-wvYLhw
+2026-07-26 15:25:14,296 - src.ui.callbacks - INFO - Cleaned up D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\d773efed-84ee-4079-acbd-62ada94ac504.mp4
