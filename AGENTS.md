@@ -16,6 +16,7 @@ Gradio UI -> URLValidator -> TikTokDownloader(yt-dlp) -> VideoValidator(moviepy)
 app.py                  # Entry point: loads env, launches Gradio
 src/
   __init__.py
+  exceptions.py         # AuthError, DownloadError, ValidationError, UploadError
   logger.py             # Rotating file + console logger
   auth/
     __init__.py
