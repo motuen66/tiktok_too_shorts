@@ -1,1 +1,69 @@
 2026-07-25 22:22:14,389 - test - INFO - Phase 1 setup verified successfully
+2026-07-26 11:24:10,797 - __main__ - WARNING - YouTube not authenticated. Run 'python setup_oauth.py' first.
+2026-07-26 11:28:36,002 - src.ui.callbacks - ERROR - Pipeline failed: YouTube not authenticated. Run 'python setup_oauth.py' first.
+2026-07-26 11:28:37,762 - src.ui.callbacks - ERROR - Pipeline failed: YouTube not authenticated. Run 'python setup_oauth.py' first.
+2026-07-26 12:25:16,091 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 12:26:20,776 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:26:22,145 - src.ui.callbacks - ERROR - Pipeline failed: Failed to download video: [0;31mERROR:[0m Invalid format sort string "~watermark" given by extractor; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2026-07-26 12:27:51,897 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 12:28:07,147 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:28:08,877 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\302d3640-f937-4297-9eb4-ce009085a684.mp4
+2026-07-26 12:28:08,982 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:28:08,993 - src.ui.callbacks - ERROR - Pipeline failed: Validation failed: Duration 137.7s exceeds maximum 60s for YouTube Shorts.
+2026-07-26 12:28:08,995 - src.ui.callbacks - INFO - Cleaned up D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\302d3640-f937-4297-9eb4-ce009085a684.mp4
+2026-07-26 12:30:30,790 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:30:31,882 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\9b2c26af-7eae-4a75-9f82-6d3949829859.mp4
+2026-07-26 12:30:31,979 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:30:31,989 - src.ui.callbacks - ERROR - Pipeline failed: Validation failed: Duration 137.7s exceeds maximum 60s for YouTube Shorts.
+2026-07-26 12:30:31,991 - src.ui.callbacks - INFO - Cleaned up D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\9b2c26af-7eae-4a75-9f82-6d3949829859.mp4
+2026-07-26 12:30:43,514 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 12:30:48,945 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:30:50,678 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\d41601ce-db6f-4eab-9e65-efb6ffedeb60.mp4
+2026-07-26 12:30:50,777 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:30:51,556 - src.ui.callbacks - ERROR - Pipeline failed: YouTube API error: <HttpError 403 when requesting None returned "YouTube Data API v3 has not been used in project 8349200951 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/youtube.googleapis.com/overview?project=8349200951 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'YouTube Data API v3 has not been used in project 8349200951 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/youtube.googleapis.com/overview?project=8349200951 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2026-07-26 12:31:31,980 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 12:31:36,054 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:31:37,559 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\ee7634b8-6913-4a89-b50b-70b7b2038be0.mp4
+2026-07-26 12:31:37,659 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:31:38,348 - src.ui.callbacks - ERROR - Pipeline failed: YouTube API error: <HttpError 403 when requesting None returned "YouTube Data API v3 has not been used in project 8349200951 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/youtube.googleapis.com/overview?project=8349200951 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'YouTube Data API v3 has not been used in project 8349200951 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/youtube.googleapis.com/overview?project=8349200951 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2026-07-26 12:31:40,351 - src.ui.callbacks - WARNING - Could not delete D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\ee7634b8-6913-4a89-b50b-70b7b2038be0.mp4 (in use)
+2026-07-26 12:33:08,993 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:33:10,584 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\d6f2c5bc-c0f7-4964-89f5-0d73b9458b7d.mp4
+2026-07-26 12:33:10,699 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:33:11,592 - src.ui.callbacks - ERROR - Pipeline failed: YouTube API error: <HttpError 400 when requesting None returned "The request metadata specifies an invalid or empty video title.". Details: "[{'message': 'The request metadata specifies an invalid or empty video title.', 'domain': 'youtube.video', 'reason': 'invalidTitle', 'location': 'body.snippet.title', 'locationType': 'other'}]">
+2026-07-26 12:33:13,593 - src.ui.callbacks - WARNING - Could not delete D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\d6f2c5bc-c0f7-4964-89f5-0d73b9458b7d.mp4 (in use)
+2026-07-26 12:33:32,852 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:33:34,302 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\28057878-36ed-4869-b8e4-a018758118c9.mp4
+2026-07-26 12:33:34,403 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:33:40,801 - src.uploader.youtube_uploader - INFO - Uploaded video ID: Wg9sffsNgos
+2026-07-26 12:33:40,802 - src.ui.callbacks - INFO - Cleaned up D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\28057878-36ed-4869-b8e4-a018758118c9.mp4
+2026-07-26 12:48:13,274 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 12:49:15,033 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:49:16,682 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\e1d8522e-0b15-4386-b787-459ab7c02d8f.mp4
+2026-07-26 12:49:16,810 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:49:22,530 - src.uploader.youtube_uploader - INFO - Uploaded video ID: vwrZh1rapK8
+2026-07-26 12:49:22,532 - src.ui.callbacks - INFO - Cleaned up D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\e1d8522e-0b15-4386-b787-459ab7c02d8f.mp4
+2026-07-26 12:54:19,796 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 12:54:34,324 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 12:54:36,191 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\578e2bb8-8f3a-4c29-b794-47518119f1ba.mp4
+2026-07-26 12:54:36,329 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.67s, ratio=0.5625
+2026-07-26 12:54:42,613 - src.uploader.youtube_uploader - INFO - Uploaded video ID: Qz3rCkgTiEM
+2026-07-26 12:54:42,615 - src.ui.callbacks - INFO - Cleaned up D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\578e2bb8-8f3a-4c29-b794-47518119f1ba.mp4
+2026-07-26 15:10:22,517 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 15:10:24,046 - src.downloader.tiktok_downloader - INFO - Video has no audio — downloading audio track separately
+2026-07-26 15:10:43,403 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 15:10:45,219 - src.downloader.tiktok_downloader - INFO - Video has no audio — downloading audio track separately
+2026-07-26 15:10:46,859 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\42ee6259-eb70-4d60-9c86-025bfd70426f.mp4
+2026-07-26 15:10:47,030 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.65s, ratio=0.5625
+2026-07-26 15:13:18,884 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 15:13:40,498 - src.downloader.tiktok_downloader - INFO - Starting download for https://www.tiktok.com/@ticungbimdsa/video/7658929447185255711
+2026-07-26 15:13:42,161 - src.downloader.tiktok_downloader - INFO - Video has no audio — downloading audio track separately
+2026-07-26 15:13:43,768 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\b293770e-22da-4928-8d2d-26fa2e50e84b.mp4
+2026-07-26 15:13:43,935 - src.validator.video_validator - INFO - Video: 720x1280, duration=137.65s, ratio=0.5625
+2026-07-26 15:13:50,468 - src.uploader.youtube_uploader - INFO - Uploaded video ID: blXiAErpNfg
+2026-07-26 15:13:50,470 - src.ui.callbacks - INFO - Cleaned up D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\b293770e-22da-4928-8d2d-26fa2e50e84b.mp4
+2026-07-26 15:19:43,256 - src.downloader.tiktok_downloader - INFO - Fetching video info from TikWM (attempt 1/3)
+2026-07-26 15:19:44,489 - src.downloader.tiktok_downloader - INFO - Downloading video from https://v16m-default.tiktokcdn-us.com/075724c2be546decc7c22af6475e4a26/6a661809/video/tos/useast8/tos-useast8-ve-0068c001-tx2/oM1Q2QeINAJFpbfU9EFaGAAwF1IwLfRtGYVfAK/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&&bt=339&ft=4bBsyMMD8Zmo0leQga4jVqs.ARFrKsd.&mime_type=video_mp4&rc=ZDhmNDRkNmk7PGU1aTlmNUBpanV4cXA5cm15PDMzaTczNEAtLTE2LWIwNl4xYWNiNmM1YSNjLV80MmRjajFhLS1kMTJzcw%3D%3D&vvpl=1&l=202607260819446416A993E735C8BA75D1&btag=e00090000
+2026-07-26 15:19:46,895 - src.downloader.tiktok_downloader - INFO - Downloaded to D:\Coding\PROJECTS\tiktok_to_shorts_tool\downloads\d52ccf1d-078a-4ef5-84ac-556222a96482.mp4 (5985324 bytes)
+2026-07-26 15:22:09,123 - __main__ - INFO - YouTube authentication valid.
+2026-07-26 15:24:59,524 - __main__ - INFO - YouTube authentication valid.

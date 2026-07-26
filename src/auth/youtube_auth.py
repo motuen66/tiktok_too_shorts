@@ -2,8 +2,8 @@ import os
 import re
 from pathlib import Path
 
-from google.auth.credentials import Credentials
 from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 from config.settings import YOUTUBE_UPLOAD_SCOPE, BASE_DIR

@@ -6,7 +6,6 @@ from src.ui.callbacks import process_pipeline
 def create_ui() -> gr.Blocks:
     with gr.Blocks(
         title="TikTok to YouTube Shorts",
-        theme=gr.themes.Soft(),
     ) as demo:
         gr.Markdown(
             "# TikTok to YouTube Shorts"

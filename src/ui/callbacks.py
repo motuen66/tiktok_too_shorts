@@ -1,3 +1,4 @@
+import time
 from pathlib import Path
 
 import gradio as gr
@@ -80,5 +81,13 @@ def process_pipeline(
         return "", f"Unexpected error: {e}"
     finally:
         if video_path and video_path.exists():
-            video_path.unlink(missing_ok=True)
-            logger.info("Cleaned up %s", video_path)
+            for attempt in range(3):
+                try:
+                    video_path.unlink(missing_ok=True)
+                    logger.info("Cleaned up %s", video_path)
+                    break
+                except PermissionError:
+                    if attempt < 2:
+                        time.sleep(1)
+                    else:
+                        logger.warning("Could not delete %s (in use)", video_path)

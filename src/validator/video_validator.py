@@ -3,7 +3,7 @@ from pathlib import Path
 
 from moviepy import VideoFileClip
 
-from config.settings import ASPECT_RATIO_TOLERANCE, MAX_DURATION_SECONDS, MIN_WIDTH
+from config.settings import ASPECT_RATIO_TOLERANCE, , MIN_WIDTH
 from src.exceptions import ValidationError
 from src.logger import setup_logger
 
@@ -48,7 +48,7 @@ def validate_for_shorts(video_path: Path) -> ValidationResult:
                 f"Video is {width}x{height}. Shorts require 9:16."
             )
 
-        if duration > MAX_DURATION_SECONDS:
+        if duration > :
             result.errors.append(
                 f"Duration {duration:.1f}s exceeds maximum {MAX_DURATION_SECONDS}s for YouTube Shorts."
             )

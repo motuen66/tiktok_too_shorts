@@ -60,10 +60,13 @@ python app.py            # Launches Gradio at http://localhost:7860
 
 ## Key Technical Details
 
-### TikTok Download (yt-dlp)
-- Target format without watermark: filter for `"watermark": false` in formats list via `--format-sort`.
-- Fallback: if no watermark-free format found, best available + log warning.
+### TikTok Download (TikWM API)
+- Uses third-party TikWM API (`https://www.tikwm.com/api/`) to fetch video download URLs.
+- Request includes `hd=1` parameter to request HD (1080p when available, fallback to max res).
+- Parses JSON response: prefers `hdplay` field, falls back to `play`.
+- Downloads video content via streaming GET request.
 - Output template: `downloads/{uuid}.mp4` (unique per session).
+- Retries with exponential backoff (3 attempts) on API timeouts.
 
 ### YouTube OAuth
 - Scope: `https://www.googleapis.com/auth/youtube.upload`

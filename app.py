@@ -1,3 +1,4 @@
+import gradio as gr
 from dotenv import load_dotenv
 
 from src.auth.youtube_auth import get_credentials
@@ -19,7 +20,7 @@ def main():
         logger.info("YouTube authentication valid.")
 
     demo = create_ui()
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    demo.launch(server_name="0.0.0.0", server_port=7860, theme=gr.themes.Soft())
 
 
 if __name__ == "__main__":

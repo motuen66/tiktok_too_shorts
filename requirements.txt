@@ -1,8 +1,8 @@
 gradio>=6.0
-yt-dlp>=2024.0
-moviepy>=2.0
-google-api-python-client>=2.0
-google-auth-oauthlib>=1.0
-google-auth>=2.0
-python-dotenv>=1.0
+moviepy
+requests
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+python-dotenv
 pillow>=12.0
